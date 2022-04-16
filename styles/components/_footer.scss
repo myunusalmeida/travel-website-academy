@@ -1,0 +1,31 @@
+.footer {
+    background: #1D1D1D;
+    padding: 50px 0;
+
+    .footer-brand {
+        font-size: $heading-4-size;
+        font-weight: 600;
+        color: $orange-color;
+        text-decoration: none;
+
+        span {
+            color: $white-color;
+        }
+    }
+
+    .footer-title {
+        font-size: $heading-5-size;
+        font-weight: 600;
+    }
+
+    .footer-list {
+        list-style: none;
+        padding:0;
+        
+        a {
+            color: $white-color;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+    }
+}

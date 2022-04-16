@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section .section-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1D1D1D;
+}
+
+.btn-orange {
+  background-color: #F26440;
+  color: #FFFFFF;
+}
+
+.btn-orange:hover {
+  background-color: #FFFFFF;
+  color: #F26440;
+}
+
+.navbar .navbar-brand {
+  font-size: 24px;
+  font-weight: 600;
+  color: #F26440;
+}
+
+.navbar .navbar-brand span {
+  color: #1D1D1D;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #1D1D1D;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #F26440;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #F26440;
+}
+
+.footer {
+  background: #1D1D1D;
+  padding: 50px 0;
+}
+
+.footer .footer-brand {
+  font-size: 24px;
+  font-weight: 600;
+  color: #F26440;
+  text-decoration: none;
+}
+
+.footer .footer-brand span {
+  color: #FFFFFF;
+}
+
+.footer .footer-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer .footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-list a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.hero {
+  background: rgba(242, 100, 64, 0.03);
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #1D1D1D;
+}
+
+@media screen and (max-width: 768px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+}
+
+.hero p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #474747;
+}
+
+.service .card-service .card-body img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.service .card-service .card-body h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1D1D1D;
+}
+
+.service .card-service .card-body p {
+  font-weight: 400;
+  color: #474747;
+}
+
+.service .card-destination {
+  height: 350px;
+  background-size: cover;
+  border-radius: 10px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-bottom: 20px;
+}
+
+.service .card-destination .card-body {
+  border-radius: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(48.96%, rgba(0, 0, 0, 0)), to(#000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.96%, #000000 100%);
+  position: relative;
+}
+
+.service .card-destination .card-body .content {
+  position: absolute;
+  bottom: 20px;
+}
+
+.service .card-destination .card-body .content h3 {
+  color: #FFFFFF;
+}
+
+.service .card-destination .card-body .content p {
+  color: #E5E5E5;
+}
+
+.service .card-destination:hover {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.guide .card .rating .bx {
+  color: gold;
+}
+/*# sourceMappingURL=style.css.map */
